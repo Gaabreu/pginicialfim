@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BANNER */
+
+#banner{
+    background-image: url('gemeos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#banner span{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+h2{
+    font-weight: 100
+}
+
+/* CAIXA 2 */
+
+#caixa2{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.texto p {
+    margin: 30px;
+    font-size: 17px;
+}
+
+.texto{
+    width: 80%;
+}
+
+.bio{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.bio span{
+    font-weight: 900;
+}
+
+/* CAIXA 3 */
+
+#caixa3{
+    height: 650px;
+    background-image: url('img/caixa3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones img{
+    height: 82px;
+    
+    padding: 20px;
+}
+.icones h3{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+.icones p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NOTIFICAR */
+
+#notificar{
+    height: 250px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#notificar h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#notificar div{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    width: 60px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+@media (min-width: 500px) and  (max-width: 740px){
+
+    .texto p {
+        margin: 30px;
+        font-size: 18px;
+    }
+
+    button{
+        margin-left: 20px;
+    }
+}
+
+
+@media (min-width: 500px) {
+h1{
+    font-size: 80px;
+}  
+
+#caixa2{
+    height: 350px;
+}
+
+#caixa3{
+    flex-direction: row;
+    height: 400px;
+}
+.icones img{
+    height: 100px;
+}
+.icones h3{
+    font-size: 25px;
+}
+.icones p{
+    font-size: 18px;
+}
+
+#notificar{
+    height: 150px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+}
+
+@media (min-width: 740px){
+
+
+    .texto p {
+    margin: 55px;
+    font-size: 22px;
+}
+input{
+    width: 40vw;
+}
+
+button{
+    margin-left: 0px;
+}
+
+
+
+}
