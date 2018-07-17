@@ -82,8 +82,7 @@ h2{
 }
 
 .icones img{
-    height: 82px;
-    
+    height: 82px;  
     padding: 20px;
 }
 .icones h3{
@@ -136,20 +135,6 @@ button{
     height: 25px;
     margin-left: 20px;
 }
-
-@media (min-width: 500px) and  (max-width: 740px){
-
-    .texto p {
-        margin: 30px;
-        font-size: 18px;
-    }
-
-    button{
-        margin-left: 20px;
-    }
-}
-
-
 @media (min-width: 500px) {
 h1{
     font-size: 80px;
